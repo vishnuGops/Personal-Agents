@@ -11,3 +11,162 @@
 [2026-09-20 23:40:36] [INFO] AlgoTrading processes & routes are protected and untouched.
 [2026-09-20 23:40:36] [INFO] ==========================================================
 [2026-09-20 23:40:37] [STATE] Surfshark VPN detected as ACTIVE.
+[2026-09-20 23:47:58] [INFO] ==========================================================
+[2026-09-20 23:47:58] [INFO] VPN Coordinator started.
+[2026-09-20 23:47:58] [INFO] Poll interval: 3s | ntfy: True | Kuma: True | Log: C:\Users\Vishnu-Server\Desktop\Coding\Personal-Agents\Scripts\vpn-coordinator\vpn-coordinator.log
+[2026-09-20 23:47:58] [INFO] AlgoTrading processes & routes are protected and untouched.
+[2026-09-20 23:47:58] [INFO] ==========================================================
+[2026-09-20 23:48:00] [STATE] Surfshark VPN detected as ACTIVE.
+[2026-09-20 23:48:00] [WARN] Failed to push Uptime Kuma heartbeat: Invalid URI: The hostname could not be parsed.
+[2026-09-20 23:48:00] [INFO] RunOnce specified. Coordinator check completed.
+[2026-09-20 23:48:46] [INFO] ==========================================================
+[2026-09-20 23:48:46] [INFO] VPN Coordinator started.
+[2026-09-20 23:48:46] [INFO] Poll interval: 3s | ntfy: True | Kuma: True | Log: C:\Users\Vishnu-Server\Desktop\Coding\Personal-Agents\Scripts\vpn-coordinator\vpn-coordinator.log
+[2026-09-20 23:48:46] [INFO] AlgoTrading processes & routes are protected and untouched.
+[2026-09-20 23:48:46] [INFO] ==========================================================
+[2026-09-20 23:48:47] [STATE] Surfshark VPN detected as ACTIVE.
+[2026-09-20 23:48:47] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Active | Tailscale: Paused
+[2026-09-20 23:48:47] [INFO] RunOnce specified. Coordinator check completed.
+[2026-09-20 23:52:29] [STATE] Surfshark VPN detected as INACTIVE (disconnected).
+[2026-09-20 23:52:29] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:30] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:30] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:52:33] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:34] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:34] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:52:38] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:39] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:39] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:52:42] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:43] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:43] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:52:46] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:47] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:47] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:52:50] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:51] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:51] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:52:54] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:55] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:55] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:52:58] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:52:59] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:52:59] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:03] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:04] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:04] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:05] [INFO] ==========================================================
+[2026-09-20 23:53:05] [INFO] VPN Coordinator started.
+[2026-09-20 23:53:05] [INFO] Poll interval: 3s | ntfy: True | Kuma: True | Log: C:\Users\Vishnu-Server\Desktop\Coding\Personal-Agents\Scripts\vpn-coordinator\vpn-coordinator.log
+[2026-09-20 23:53:05] [INFO] AlgoTrading processes & routes are protected and untouched.
+[2026-09-20 23:53:05] [INFO] ==========================================================
+[2026-09-20 23:53:06] [STATE] Surfshark VPN detected as INACTIVE (disconnected).
+[2026-09-20 23:53:06] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:07] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:07] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:07] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:53:10] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:11] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:11] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:14] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:15] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:16] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:19] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:20] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:20] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:23] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:24] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:24] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:27] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:28] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:28] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:31] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:32] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:32] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:35] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:36] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:36] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:39] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:41] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:41] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:41] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:53:44] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:45] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:45] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:48] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:49] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:49] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:52] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:53] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:53] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:53:56] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:53:57] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:53:57] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:00] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:01] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:01] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:04] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:05] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:06] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:09] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:10] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:10] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:13] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:14] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:14] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:14] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:54:17] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:18] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:18] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:21] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:22] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:22] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:25] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:26] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:26] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:29] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:31] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:31] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:34] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:35] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:35] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:38] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:39] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:39] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:42] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:43] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:43] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:46] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:47] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:47] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:47] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:54:50] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:51] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:51] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:54:54] [STATE] Mutual exclusion rule triggered: Surfshark is DOWN but Tailscale is Stopped.
+[2026-09-20 23:54:56] [STATE] Restoring Tailscale connection (tailscale up)...
+[2026-09-20 23:54:56] [ERROR] Failed to bring Tailscale up (exit 1): Error: changing settings via 'tailscale up' requires mentioning all non-default flags. To proceed, either re-run your command with --reset or use the command below to explicitly mention the current value of all non-default settings: System.Management.Automation.RemoteException 	tailscale up --timeout=15s --unattended System.Management.Automation.RemoteException
+[2026-09-20 23:55:17] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:55:25] [INFO] ==========================================================
+[2026-09-20 23:55:25] [INFO] VPN Coordinator started.
+[2026-09-20 23:55:25] [INFO] Poll interval: 3s | ntfy: True | Kuma: True | Log: C:\Users\Vishnu-Server\Desktop\Coding\Personal-Agents\Scripts\vpn-coordinator\vpn-coordinator.log
+[2026-09-20 23:55:25] [INFO] AlgoTrading processes & routes are protected and untouched.
+[2026-09-20 23:55:25] [INFO] ==========================================================
+[2026-09-20 23:55:25] [STATE] Surfshark VPN detected as INACTIVE (disconnected).
+[2026-09-20 23:55:26] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:55:26] [INFO] RunOnce specified. Coordinator check completed.
+[2026-09-20 23:55:48] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:56:19] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:56:50] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:57:21] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:57:28] [INFO] ==========================================================
+[2026-09-20 23:57:28] [INFO] VPN Coordinator started.
+[2026-09-20 23:57:28] [INFO] Poll interval: 3s | ntfy: True | Kuma: True | Log: C:\Users\Vishnu-Server\Desktop\Coding\Personal-Agents\Scripts\vpn-coordinator\vpn-coordinator.log
+[2026-09-20 23:57:28] [INFO] AlgoTrading processes & routes are protected and untouched.
+[2026-09-20 23:57:28] [INFO] ==========================================================
+[2026-09-20 23:57:28] [STATE] Surfshark VPN detected as INACTIVE (disconnected).
+[2026-09-20 23:57:28] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:57:59] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:58:30] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:59:01] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)
+[2026-09-20 23:59:32] [DEBUG] Uptime Kuma heartbeat pushed: Surfshark: Inactive | Tailscale: Active (24/7)

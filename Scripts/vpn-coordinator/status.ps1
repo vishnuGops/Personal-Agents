@@ -53,7 +53,20 @@ if ($coordSvc) {
     Write-Host "  Service '$serviceName' is NOT installed." -ForegroundColor DarkYellow
 }
 
-# 4. Recent Logs
+# 4. Uptime Kuma Monitors
+Write-Host "`n[Uptime Kuma Monitors]" -ForegroundColor Yellow
+try {
+    $kumaMonitors = docker exec uptime-kuma sqlite3 -header -column /app/data/kuma.db "SELECT m.id, m.name, m.type, coalesce(h.status, -1) as status, coalesce(h.msg, '') as last_msg FROM monitor m LEFT JOIN (SELECT monitor_id, status, msg FROM heartbeat WHERE id IN (SELECT MAX(id) FROM heartbeat GROUP BY monitor_id)) h ON m.id = h.monitor_id WHERE m.id IN (7, 8);" 2>$null
+    if ($kumaMonitors) {
+        $kumaMonitors | ForEach-Object { Write-Host "  $_" -ForegroundColor Gray }
+    } else {
+        Write-Host "  Could not query Uptime Kuma database." -ForegroundColor DarkGray
+    }
+} catch {
+    Write-Host "  Docker or Uptime Kuma not reachable." -ForegroundColor DarkGray
+}
+
+# 5. Recent Logs
 Write-Host "`n[Recent Coordinator Activity]" -ForegroundColor Yellow
 if (Test-Path $logFile) {
     Get-Content $logFile -Tail 10 | ForEach-Object { Write-Host "  $_" -ForegroundColor Gray }

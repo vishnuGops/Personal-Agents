@@ -120,3 +120,15 @@ State transitions trigger HTTP POST notifications to:
 
 ### Tailscale Unattended Mode
 Tailscale is configured with `unattended=true` (`tailscale set --unattended=true`), ensuring that Tailscale can connect and operate headlessly without requiring an active desktop login.
+
+### Uptime Kuma Monitoring
+Integrated with the home server's Uptime Kuma instance on `http://10.0.0.111:3001`:
+1. **`VPN Coordinator` (Push Monitor ID 7)**:
+   - Endpoint: `http://10.0.0.111:3001/api/push/vpncoord79a41b2c5d8e0f13579bdf24`
+   - Pushes heartbeats every 30s with status message:
+     - `Surfshark: Inactive | Tailscale: Active (24/7)`
+     - `Surfshark: Active | Tailscale: Paused`
+   - Linked to `Phone (ntfy)` notification; triggers an alert if the service ever crashes or misses its heartbeat.
+2. **`Surfshark (qBittorrent)` (Port Monitor ID 8)**:
+   - Checks TCP port `10.14.0.2:48125` (qBittorrent listening socket bound to Surfshark WireGuard).
+   - Displayed on the Kuma dashboard; notifications are omitted so it doesn't trigger false-down alerts during normal idle periods.
