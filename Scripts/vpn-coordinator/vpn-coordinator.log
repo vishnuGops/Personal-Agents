@@ -1,0 +1,13 @@
+[2026-09-20 23:32:59] [INFO] ==========================================================
+[2026-09-20 23:32:59] [INFO] VPN Coordinator started.
+[2026-09-20 23:32:59] [INFO] Poll interval: 3s | ntfy: True | Log: C:\Users\Vishnu-Server\Desktop\Coding\Personal-Agents\Scripts\vpn-coordinator\vpn-coordinator.log
+[2026-09-20 23:32:59] [INFO] AlgoTrading processes & routes are protected and untouched.
+[2026-09-20 23:32:59] [INFO] ==========================================================
+[2026-09-20 23:33:01] [STATE] Surfshark VPN detected as ACTIVE.
+[2026-09-20 23:33:01] [INFO] RunOnce specified. Coordinator check completed.
+[2026-09-20 23:40:36] [INFO] ==========================================================
+[2026-09-20 23:40:36] [INFO] VPN Coordinator started.
+[2026-09-20 23:40:36] [INFO] Poll interval: 3s | ntfy: True | Log: C:\Users\Vishnu-Server\Desktop\Coding\Personal-Agents\Scripts\vpn-coordinator\vpn-coordinator.log
+[2026-09-20 23:40:36] [INFO] AlgoTrading processes & routes are protected and untouched.
+[2026-09-20 23:40:36] [INFO] ==========================================================
+[2026-09-20 23:40:37] [STATE] Surfshark VPN detected as ACTIVE.
